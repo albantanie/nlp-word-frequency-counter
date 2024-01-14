@@ -1,0 +1,8 @@
+Flask
+Sastrawi
+matplotlib
+nltk
+seaborn
+bs4
+requests
+numpy
