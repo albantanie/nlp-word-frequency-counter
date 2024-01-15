@@ -7,76 +7,76 @@
     <title>Hasil Analisis</title>
 
     <style>
-        
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
 
-h2 {
-    text-align: center;
-    color: #009688;
-}
+        h2 {
+            text-align: center;
+            color: #009688;
+        }
 
-section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+        section {
+            max-width: 100%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-h3 {
-    color: #009688;
-}
+        h3 {
+            color: #009688;
+        }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-}
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
 
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
 
-th {
-    background-color: #009688;
-    color: #fff;
-}
+        th {
+            background-color: #009688;
+            color: #fff;
+        }
 
-tbody tr:hover {
-    background-color: #f5f5f5;
-}
+        tbody tr:hover {
+            background-color: #f5f5f5;
+        }
 
-.charts-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
+        .charts-container {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
 
-.chart {
-    width: 48%;
-}
+        .chart {
+            width: 100%;
+            max-width: 100%; /* Set maximum width for smaller screens */
+            margin-bottom: 20px;
+        }
 
-.chart h4 {
-    text-align: center;
-    color: #009688;
-    margin-bottom: 10px;
-}
+        .chart h4 {
+            text-align: center;
+            color: #009688;
+            margin-bottom: 10px;
+        }
 
-.chart img {
-    width: 100%;
-    border-radius: 4px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
+        .chart img {
+            width: 100%;
+            border-radius: 4px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 
@@ -120,8 +120,6 @@ tbody tr:hover {
                 <img src="{{ url_for('static', filename='bar_chart.png') }}" alt="Bar Chart">
             </div>
         </div>
-         
-    
     </section>
 </body>
 
