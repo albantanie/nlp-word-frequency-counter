@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from bs4 import BeautifulSoup
 import requests
+import nltk
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
@@ -8,6 +9,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 
+nltk.download('punkt')
 app = Flask(__name__)
 
 
