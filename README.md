@@ -37,7 +37,7 @@ If you want to contribute or modify the code, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/nlp-word-frequency-counter.git
+    git clone https://github.com/albantanie/nlp-word-frequency-counter.git
     ```
 
 2. Create a virtual environment (recommended):
